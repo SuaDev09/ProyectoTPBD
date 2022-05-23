@@ -189,7 +189,7 @@
                     <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
                 </div>
                 <div class="elements-text">
-                    <span>MOSTRAR GRAFICAS</span>Î
+                    <span>AGREGAR PACIENTE</span>
                 </div>
             </a>
         </div>
