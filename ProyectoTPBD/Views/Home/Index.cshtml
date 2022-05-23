@@ -1,0 +1,197 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+<style scoped>
+    .index {
+        width: 100%;
+    }
+    
+    .index .container{
+        width: 80%;
+        margin-left:45px;
+        padding: 25px;
+        display: inline-block;
+    }
+
+    .elements {
+        width: 90%;
+        margin: 0 auto 15px;
+        background-color: #FFD23F;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .elements a{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .elements a:hover{
+        transition: all 0.4s;
+        background-color: #CFAA34;
+    }
+
+    .elements a img{
+        padding: 10px;
+        width: 80%;
+    }
+
+    .elements a span{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    @@media only screen and (min-width: 750px) {
+        .index .container {
+            transition: all 0.8s;
+            width: 80%;
+            margin: 0 auto;
+            display: grid;
+            gap: .8rem;
+            grid-auto-rows: 10rem;
+            grid-template-columns: repeat(auto-fill, minmax(20rem, 1.5fr));
+            justify-items: center;
+        }
+
+        .elements {
+            width: 100%;
+            margin: 0;
+            background-color: #FFD23F;
+            border-radius: 40px;
+        }
+
+        .elements a img{
+            padding: 0px;
+            width: 90%;
+        }
+    }
+
+    @@media only screen and (min-width: 1450px) {
+        .index .container {
+            transition: all 0.8s;
+            width: 90%;
+            margin: 0 auto;
+            padding: 25px;
+            display: grid;
+            gap: 3rem;
+            grid-auto-rows: 14rem;
+            grid-template-columns: repeat(auto-fill, minmax(28rem, 1.5fr));
+            justify-items: center;
+        }
+
+        .elements {
+            width: 100%;
+            margin: 0;
+            background-color: #FFD23F;
+            border-radius: 40px;
+        }
+        
+        .elements a img{
+            padding: 0px;
+            width: 90%;
+        }
+    }
+
+
+</style>
+
+<section class="index">
+    <div class="container">
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png"/>
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="elements">
+            <a href='@Url.Action("Index", "Home")'>
+                <div class="elements-icon">
+                    <img class="icon-image" src="~/Content/imgs/nuevo-usuario1.png" />
+                </div>
+                <div class="elements-text">
+                    <span>AGREGAR PACIENTE</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
